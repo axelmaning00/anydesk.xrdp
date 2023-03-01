@@ -1,0 +1,190 @@
+   info 2023-03-02 00:52:27.892         ad   main    489    489                         impl_selector - using sse2
+ * * * * * * * * * * * * * * * * * *
+   info 2023-03-02 00:52:27.893         ad   main    489    489                                  main - * AnyDesk Linux Startup *
+   info 2023-03-02 00:52:27.893         ad   main    489    489                                  main - * Version 6.2.1 (linux_release_6.2.1 8fd1042907f5e11fc19f599b7cfce3fcc3e42363)
+   info 2023-03-02 00:52:27.893         ad   main    489    489                                  main - * Build 20221102123558
+   info 2023-03-02 00:52:27.893         ad   main    489    489                                  main - * Prefix ad
+   info 2023-03-02 00:52:27.893         ad   main    489    489                                  main - * Copyright (C) 2022 AnyDesk Software GmbH *
+   info 2023-03-02 00:52:27.893         ad   main    489    489                                  main - 
+   info 2023-03-02 00:52:27.906         ad   main    489    489                                  main - Distribution Info: Arch Linux
+   info 2023-03-02 00:52:27.915         ad   main    489    489                                  main - Found GLib Version: 2.74.
+   info 2023-03-02 00:52:28.041         ad   main    489    489                   fiber.ipc_namespace - Global: no
+   info 2023-03-02 00:52:28.042         ad   main    489    489                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2023-03-02 00:52:28.042         ad   main    489    489                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2023-03-02 00:52:28.067    service   main    489    489                   fiber.ipc_namespace - Global: yes
+   info 2023-03-02 00:52:28.068    service   main    489    489             app.named_process_starter - Spawning new process with: UID: 0, DPY: , ID: , SEAT: 42734992
+warning 2023-03-02 00:52:28.076    service   main    530    530             unix_base.x11.xauth_magic - XAUTHORITY is not set, trying the default location
+  error 2023-03-02 00:52:28.076    service   main    530    530             unix_base.x11.xauth_magic - Cannot find Xauthority file despite all attempts, backend will probably fail
+   info 2023-03-02 00:52:28.152    service   main    489    489                       fiber.scheduler - Spawning root fiber 1.
+   info 2023-03-02 00:52:28.152    service   main    489    489                       fiber.scheduler - Scheduler started.
+   info 2023-03-02 00:52:28.154    service   main    489    489    1                      app.service - Opening the IPC namespace.
+   info 2023-03-02 00:52:28.154    service   main    489    489    1              fiber.ipc_namespace - Global: yes
+   info 2023-03-02 00:52:28.154    service   main    489    489    1                      app.service - Logging into the IPC namespace.
+   info 2023-03-02 00:52:28.154    service   main    489    489    1                      app.service - Starting to supervise the IPC namespace.
+   info 2023-03-02 00:52:28.155    service   main    489    489    1                      app.service - Starting the connector.
+   info 2023-03-02 00:52:28.201    service   main    489    489    1            anynet.connection_mgr - Importing certificate and key.
+   info 2023-03-02 00:52:28.223    service   main    489    489    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2023-03-02 00:52:28.223    service   main    489    489    1                  fiber.scheduler - Spawning root fiber 2.
+   info 2023-03-02 00:52:28.243    service   main    489    489    1                  fiber.scheduler - Spawning root fiber 3.
+   info 2023-03-02 00:52:28.244    service   main    489    489    1                  fiber.scheduler - Spawning root fiber 4.
+   info 2023-03-02 00:52:28.244    service   main    489    489    1                      app.service - Setting up the listen sockets.
+   info 2023-03-02 00:52:28.258    service   main    489    489    1                  fiber.scheduler - Spawning root fiber 5.
+   info 2023-03-02 00:52:28.258    service   main    489    489    1                      app.service - Service startup completed.
+   info 2023-03-02 00:52:28.258    service   main    489    489    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2023-03-02 00:52:28.258    service   main    489    489    1            app.discovery_manager - Starting Discovery.
+   info 2023-03-02 00:52:28.259    service   main    489    489    1                   ad.wol_service - Starting WOL service.
+   info 2023-03-02 00:52:28.259    service   main    489    489    1                  fiber.scheduler - Spawning child fiber 6 (parent 1).
+   info 2023-03-02 00:52:28.260    service   main    489    489    1                  fiber.scheduler - Spawning child fiber 7 (parent 1).
+   info 2023-03-02 00:52:28.260    service   main    489    489    1                      app.service - Waiting for messages.
+   info 2023-03-02 00:52:28.260    service   main    489    489    1                      app.service - Process start: 530 (control:4294967295).
+   info 2023-03-02 00:52:28.260    service   main    489    489    2            anynet.connection_mgr - Starting connection manager fiber.
+   info 2023-03-02 00:52:28.260    service   main    489    489    3           anynet.main_relay_conn - Starting main relay connection.
+   info 2023-03-02 00:52:28.293    service   main    489    489    3                  fiber.scheduler - Spawning child fiber 8 (parent 3).
+   info 2023-03-02 00:52:28.293    service   main    489    489    4              anynet.tcp_acceptor - Listening on TCP port 7070.
+   info 2023-03-02 00:52:28.294    service   main    489    489    5                anynet.any_socket - Listen fiber started.
+   info 2023-03-02 00:52:28.294    service   main    489    489    8           anynet.relay_connector - Relay connector started.
+   info 2023-03-02 00:52:28.294    service   main    489    489    8           anynet.relay_connector - Start proxy search.
+warning 2023-03-02 00:52:28.294    service   main    489    489    8                base.proxy_finder - Invalid system proxy configuration.
+   info 2023-03-02 00:52:28.295    service   main    489    489    8           anynet.relay_connector - Connecting to relay relay-fc5bd1dd.net.anydesk.com (1/2)
+   info 2023-03-02 00:52:28.295    service   main    489    489    8           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2023-03-02 00:52:28.295    service   main    489    489    8           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2023-03-02 00:52:28.295    service   main    489    489    8           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2023-03-02 00:52:28.297    service   main    489    489    8           anynet.relay_connector - Using IPv4: 138.199.36.117
+   info 2023-03-02 00:52:28.343    service   main    489    489    8                  fiber.scheduler - Spawning root fiber 9.
+   info 2023-03-02 00:52:28.459    service   main    489    489    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2023-03-02 00:52:28.459    service   main    489    489    8                  fiber.scheduler - Spawning root fiber 10.
+   info 2023-03-02 00:52:28.474    service   main    489    489    8                        handshake - Using protocol version 3.
+   info 2023-03-02 00:52:28.594    service   main    489    489    8           anynet.relay_connector - Connection established.
+   info 2023-03-02 00:52:28.594    service   main    489    489    8           anynet.relay_connector - Relay connector stopped.
+   info 2023-03-02 00:52:28.594    service   main    489    489                       fiber.scheduler - Fiber 8 terminated.
+   info 2023-03-02 00:52:28.594    service   main    489    489    3           anynet.main_relay_conn - Network ID: main
+   info 2023-03-02 00:52:28.594    service   main    489    489    3                anynet.relay_conn - External address: 95.79.111.95:12559.
+   info 2023-03-02 00:52:28.594    service   main    489    489    3           anynet.main_relay_conn - Main relay ID: fc5bd1dd
+   info 2023-03-02 00:52:28.595    service   main    489    489    2            anynet.connection_mgr - Main relay connection established.
+   info 2023-03-02 00:52:28.595    service   main    489    489    2            anynet.connection_mgr - New user data. Client-ID: 281513383.
+   info 2023-03-02 00:52:28.718    service   main    489    489    1                    app.discovery - Starting.
+   info 2023-03-02 00:52:28.718    service   main    489    489    1                  fiber.scheduler - Spawning root fiber 11.
+   info 2023-03-02 00:52:28.718    service   main    489    489   11                    app.discovery - Current Discovery revision: 0
+   info 2023-03-02 00:52:28.719    service   main    489    489   11                    app.discovery - Joined multicast group 239.255.102.18:50001.
+   info 2023-03-02 00:52:28.719    service   main    489    489   11                    app.discovery - Bound to port: 50001
+   info 2023-03-02 00:52:28.719    service   main    489    489   11                anynet.udp_socket - Multicast loop option set to 0
+   info 2023-03-02 00:52:28.722    service   main    489    489   11                    app.discovery - Discovery fiber started.
+warning 2023-03-02 00:52:30.157    service   main    489    489                   fiber.ipc_namespace - Zombie process detected (530). Fixing the state.
+   info 2023-03-02 00:52:32.159    service   main    489    489    1                      app.service - Process stop: 530.
+   info 2023-03-02 00:52:54.408    service   main    489    489    1                      app.service - Process start: 865 (control:293174315).
+   info 2023-03-02 00:52:55.061    service   main    489    489    1                      app.service - New IPC connection.
+   info 2023-03-02 00:52:55.061    service   main    489    489    1                  fiber.scheduler - Spawning child fiber 12 (parent 1).
+   info 2023-03-02 00:52:55.061    service   main    489    489   12                      app.service - Creating an IPC accept socket.
+   info 2023-03-02 00:52:55.069    service   main    489    489   12                      app.service - Connected to 865 (control:293174315).
+   info 2023-03-02 00:52:55.069    service   main    489    489   12                      app.service - Process login detected.
+   info 2023-03-02 00:52:55.069    service   main    489    489   12                      app.service - Using existing control (865).
+   info 2023-03-02 00:52:55.069    service   main    489    489   12                  fiber.scheduler - Spawning child fiber 13 (parent 12).
+   info 2023-03-01 17:03:05.841    service   main    489    489    1                      app.service - Process start: 1064 (frontend).
+   info 2023-03-01 17:03:05.841    service   main    489    489    1           anynet.relay_connector - Short timeouts enabled.
+   info 2023-03-01 17:03:05.965    service   main    489    489    1                      app.service - New IPC connection.
+   info 2023-03-01 17:03:05.965    service   main    489    489    1                  fiber.scheduler - Spawning child fiber 14 (parent 1).
+   info 2023-03-01 17:03:05.965    service   main    489    489   14                      app.service - Creating an IPC accept socket.
+   info 2023-03-01 17:03:05.970    service   main    489    489   14                      app.service - Connected to 1064 (frontend).
+   info 2023-03-01 17:03:05.997    service   main    489    489   14                      app.service - Process login detected.
+   info 2023-03-01 17:03:05.997    service   main    489    489   14                  fiber.scheduler - Spawning child fiber 15 (parent 14).
+   info 2023-03-01 17:03:06.022    service   main    489    489   14                  fiber.scheduler - Spawning root fiber 16.
+   info 2023-03-01 17:03:06.022    service   main    489    489   16               app.online_monitor - Online state monitor started.
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+warning 2023-03-01 17:03:06.023    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+   info 2023-03-01 17:03:06.136    service   main    489    489   14           anynet.main_relay_conn - Reporting system information.
+warning 2023-03-01 17:03:06.136    service   main    489    489    3                      anynet.conn - Could not send login token. unavailable (47).
+   info 2023-03-01 17:03:06.804    service   main    489    489    1                      app.service - Process start: 1155 (frontend).
+   info 2023-03-01 17:03:06.834    service   main    489    489    1                      app.service - New IPC connection.
+   info 2023-03-01 17:03:06.834    service   main    489    489    1                  fiber.scheduler - Spawning child fiber 17 (parent 1).
+   info 2023-03-01 17:03:06.834    service   main    489    489   17                      app.service - Creating an IPC accept socket.
+   info 2023-03-01 17:03:06.839    service   main    489    489   17                      app.service - Connected to 1155 (frontend).
+   info 2023-03-01 17:03:06.884    service   main    489    489   17                      app.service - Process login detected.
+   info 2023-03-01 17:03:06.884    service   main    489    489   17                  fiber.scheduler - Spawning child fiber 18 (parent 17).
+   info 2023-03-01 17:03:06.928    service   main    489    489   17                  fiber.scheduler - Spawning root fiber 19.
+   info 2023-03-01 17:03:06.928    service   main    489    489   19               app.online_monitor - Online state monitor started.
+   info 2023-03-01 17:03:06.972    service   main    489    489    1                      app.service - Process start: 1168 (frontend).
+   info 2023-03-01 17:03:07.007    service   main    489    489    1                      app.service - New IPC connection.
+   info 2023-03-01 17:03:07.007    service   main    489    489    1                  fiber.scheduler - Spawning child fiber 20 (parent 1).
+   info 2023-03-01 17:03:07.007    service   main    489    489   20                      app.service - Creating an IPC accept socket.
+   info 2023-03-01 17:03:07.012    service   main    489    489   20                      app.service - Connected to 1168 (frontend).
+   info 2023-03-01 17:03:07.047    service   main    489    489   20                      app.service - Process login detected.
+   info 2023-03-01 17:03:07.047    service   main    489    489   20                  fiber.scheduler - Spawning child fiber 21 (parent 20).
+   info 2023-03-01 17:03:07.086    service   main    489    489   20                  fiber.scheduler - Spawning root fiber 22.
+   info 2023-03-01 17:03:07.086    service   main    489    489   22               app.online_monitor - Online state monitor started.
+   info 2023-03-01 17:03:08.763    service   main    489    489    1                      app.service - Process stop: 1168.
+   info 2023-03-01 17:03:09.017    service   main    489    489   20                      app.service - IPC socket closed.
+   info 2023-03-01 17:03:09.017    service   main    489    489                       fiber.scheduler - Fiber 20 requested quit of fiber 21.
+   info 2023-03-01 17:03:09.034    service   main    489    489   21                      fiber.fiber - Received quit.
+   info 2023-03-01 17:03:09.034    service   main    489    489                       fiber.scheduler - Fiber 21 terminated.
+   info 2023-03-01 17:03:09.034    service   main    489    489                       fiber.scheduler - Fiber 20 requested quit of fiber 22.
+   info 2023-03-01 17:03:09.034    service   main    489    489   22               app.online_monitor - Online state monitor stopped.
+   info 2023-03-01 17:03:09.034    service   main    489    489                       fiber.scheduler - Fiber 22 terminated.
+   info 2023-03-01 17:03:09.035    service   main    489    489   20                      app.service - Fiber exit (ipc).
+   info 2023-03-01 17:03:09.035    service   main    489    489                       fiber.scheduler - Fiber 20 terminated.
+   info 2023-03-01 17:03:14.330    service   main    489    489   12                      app.service - Terminating the service.
+   info 2023-03-01 17:03:14.330    service   main    489    489   12                  fiber.scheduler - Quitting scheduler (0).
+   info 2023-03-01 17:03:14.330    service   main    489    489                       fiber.scheduler - Quitting all fibers.
+   info 2023-03-01 17:03:14.330    service   main    489    489    1                      app.service - Service shutdown.
+   info 2023-03-01 17:03:14.330    service   main    489    489                       fiber.scheduler - Fiber 1 requested quit of fiber 6.
+   info 2023-03-01 17:03:14.330    service   main    489    489    2            anynet.connection_mgr - Connection manager fiber quit.
+   info 2023-03-01 17:03:14.330    service   main    489    489                       fiber.scheduler - Fiber 2 terminated.
+   info 2023-03-01 17:03:14.330    service   main    489    489    3           anynet.main_relay_conn - Main relay connection closed.
+   info 2023-03-01 17:03:14.331    service   main    489    489    3            anynet.connection_mgr - Forcing cleanup.
+   info 2023-03-01 17:03:14.331    service   main    489    489                       fiber.scheduler - Fiber 3 requested quit of fiber 10.
+   info 2023-03-01 17:03:14.331    service   main    489    489    4              anynet.tcp_acceptor - Received quit.
+   info 2023-03-01 17:03:14.331    service   main    489    489                       fiber.scheduler - Fiber 4 terminated.
+   info 2023-03-01 17:03:14.331    service   main    489    489    5                anynet.any_socket - Listen fiber stopped.
+   info 2023-03-01 17:03:14.331    service   main    489    489                       fiber.scheduler - Fiber 5 terminated.
+   info 2023-03-01 17:03:14.331    service   main    489    489                       fiber.scheduler - Fiber 6 terminated.
+   info 2023-03-01 17:03:14.331    service   main    489    489    9                      fiber.fiber - Received quit.
+   info 2023-03-01 17:03:14.331    service   main    489    489                       fiber.scheduler - Fiber 9 terminated.
+   info 2023-03-01 17:03:14.331    service   main    489    489   10                      fiber.fiber - Received quit.
+   info 2023-03-01 17:03:14.331    service   main    489    489                       fiber.scheduler - Fiber 10 terminated.
+   info 2023-03-01 17:03:14.332    service   main    489    489   11                    app.discovery - Left multicast group 239.255.102.18:50001.
+   info 2023-03-01 17:03:14.332    service   main    489    489   11                    app.discovery - Discovery fiber stopped.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 11 terminated.
+   info 2023-03-01 17:03:14.332    service   main    489    489   16               app.online_monitor - Online state monitor stopped.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 16 terminated.
+   info 2023-03-01 17:03:14.332    service   main    489    489   19               app.online_monitor - Online state monitor stopped.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 19 terminated.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 1 requested quit of fiber 7.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 3 terminated.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 7 terminated.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 1 requested quit of fiber 12.
+   info 2023-03-01 17:03:14.332    service   main    489    489                       fiber.scheduler - Fiber 12 requested quit of fiber 13.
+   info 2023-03-01 17:03:14.333    service   main    489    489   13                      fiber.fiber - Received quit.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 13 terminated.
+   info 2023-03-01 17:03:14.333    service   main    489    489   12                      app.service - Fiber exit (ipc).
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 12 terminated.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 1 requested quit of fiber 14.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 14 requested quit of fiber 15.
+   info 2023-03-01 17:03:14.333    service   main    489    489   15                      fiber.fiber - Received quit.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 15 terminated.
+   info 2023-03-01 17:03:14.333    service   main    489    489   14                      app.service - Fiber exit (ipc).
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 14 terminated.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 1 requested quit of fiber 17.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 17 requested quit of fiber 18.
+   info 2023-03-01 17:03:14.333    service   main    489    489   18                      fiber.fiber - Received quit.
+   info 2023-03-01 17:03:14.333    service   main    489    489                       fiber.scheduler - Fiber 18 terminated.
+   info 2023-03-01 17:03:14.334    service   main    489    489   17                      app.service - Fiber exit (ipc).
+   info 2023-03-01 17:03:14.334    service   main    489    489                       fiber.scheduler - Fiber 17 terminated.
+   info 2023-03-01 17:03:14.334    service   main    489    489    1            anynet.connection_mgr - Connection manager shutdown.
+   info 2023-03-01 17:03:15.291    service   main    489    489    1                  fiber.scheduler - Quitting scheduler (0).
+   info 2023-03-01 17:03:15.291    service   main    489    489                       fiber.scheduler - Fiber 1 terminated.
+   info 2023-03-01 17:03:15.291    service   main    489    489                       fiber.scheduler - All fibers terminated.
+   info 2023-03-01 17:03:15.292    service   main    489    489                       fiber.scheduler - Scheduler stopped (0).
+   info 2023-03-01 17:03:15.292    service   main    489    489                                  main - Exiting normally.
